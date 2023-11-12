@@ -5,7 +5,6 @@ def find_common_participants(first_group, second_group, separator=','):
     common_partical = sorted(list(set(participants_first).intersection(participants_second)))
     return common_partical
 
-
 participants_first_group = "Иванов|Петров|Сидоров"
 participants_second_group = "Петров|Сидоров|Смирнов"
 
