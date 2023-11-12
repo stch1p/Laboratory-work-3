@@ -5,8 +5,6 @@ def find_item_index(items_list, find_item):
     except:
         return None
 
-
-
 items_list = ['яблоко', 'банан', 'апельсин', 'груша', 'киви', 'банан']
 
 for find_item in ['банан', 'груша', 'персик']:
